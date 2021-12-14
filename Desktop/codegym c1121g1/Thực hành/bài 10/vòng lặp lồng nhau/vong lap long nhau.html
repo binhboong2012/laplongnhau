@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let index;
+    index = "<table border='1' width='400' cellSpacing='1' cellPadding='5'>"
+        for (i = 1; i<= 10;i++) {
+            index = index + "<tr>";
+            for (j = 1; j <= 10; j++) {
+                index = index + "<td>" + i * j + "</td>";
+            }
+            index = index + "</tr>";
+        }
+        index = index + "</table>";
+        document.write(index);
+</script>
+</body>
+</html>
